@@ -1,0 +1,23 @@
+2024-05-10 01:00:08.112 [info] 
+
+
+
+
+2024-05-10 01:00:08.135 [info] Extension host agent started.
+2024-05-10 01:00:08.248 [info] [127.0.0.1][8bd83922][ManagementConnection] New connection established.
+2024-05-10 01:00:08.761 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] New connection established.
+2024-05-10 01:00:08.889 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> Launched Extension Host Process.
+2024-05-10 01:30:25.826 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> [0mGET /favicon.ico [33m404[0m 1.353 ms - 150[0m
+
+2024-05-10 02:07:13.977 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> [0mGET /IntegrarTec/clase_DOM/form.html [33m404[0m 1.937 ms - 170[0m
+
+2024-05-10 02:26:51.060 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> [0mGET /IntegrarTec/clase_DOM/VentanaModal/script.js [33m404[0m 1.587 ms - 183[0m
+
+2024-05-10 02:27:01.493 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> [0mGET /IntegrarTec/clase_DOM/VentanaModal/script.js [33m404[0m 0.832 ms - 183[0m
+
+2024-05-10 02:27:18.279 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> [0mGET /IntegrarTec/clase_DOM/VentanaModal/script.js [33m404[0m 0.631 ms - 183[0m
+
+2024-05-10 02:27:20.494 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> [0mGET /IntegrarTec/clase_DOM/VentanaModal/script.js [33m404[0m 0.827 ms - 183[0m
+
+2024-05-10 02:27:27.189 [info] [127.0.0.1][ba2f9b66][ExtensionHostConnection] <523> [0mGET /IntegrarTec/clase_DOM/VentanaModal/script.js [33m404[0m 1.046 ms - 183[0m
+

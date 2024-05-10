@@ -1,0 +1,23 @@
+2024-05-04 01:09:29.685 [info] 
+
+
+
+
+2024-05-04 01:09:29.685 [info] Extension host agent started.
+2024-05-04 01:09:29.685 [info] Started initializing default profile extensions in extensions installation folder. file:///home/triana/.vscode-server/extensions
+2024-05-04 01:09:29.730 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/triana/.vscode-server/extensions
+2024-05-04 01:09:29.948 [info] [127.0.0.1][c12d5a07][ManagementConnection] New connection established.
+2024-05-04 01:09:30.187 [info] Installing extensions...
+2024-05-04 01:09:31.447 [info] [127.0.0.1][13227a3d][ExtensionHostConnection] New connection established.
+2024-05-04 01:09:31.881 [info] [127.0.0.1][13227a3d][ExtensionHostConnection] <895> Launched Extension Host Process.
+2024-05-04 01:09:33.673 [info] Installing extension 'ms-ceintl.vscode-language-pack-es'...
+2024-05-04 01:09:33.675 [info] Getting Manifest... ms-ceintl.vscode-language-pack-es
+2024-05-04 01:09:33.797 [info] Installing extension: ms-ceintl.vscode-language-pack-es
+2024-05-04 01:09:38.662 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-es: Success. Duration: 3640ms.
+2024-05-04 01:09:38.961 [info] Extracted extension to file:///home/triana/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.89.2024050109: ms-ceintl.vscode-language-pack-es
+2024-05-04 01:09:38.974 [info] Renamed to /home/triana/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.89.2024050109
+2024-05-04 01:09:38.977 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-es
+2024-05-04 01:09:38.990 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-es
+2024-05-04 01:09:39.108 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-es
+2024-05-04 01:09:39.110 [info] Extension 'ms-ceintl.vscode-language-pack-es' v1.89.2024050109 was successfully installed.
+2024-05-04 01:16:08.241 [error] No ptyHost response to createProcess after 5 seconds

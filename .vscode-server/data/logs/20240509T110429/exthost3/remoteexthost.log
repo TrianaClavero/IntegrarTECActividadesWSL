@@ -1,0 +1,134 @@
+2024-05-09 15:07:21.405 [info] Extension host with pid 114502 started
+2024-05-09 15:07:21.406 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-05-09 15:07:21.415 [info] Lock '/home/triana/.vscode-server/data/User/workspaceStorage/60ca0461a8d3bc3574ce70e72af90cd6/vscode.lock': Lock acquired.
+2024-05-09 15:07:21.463 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-09 15:07:21.466 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-05-09 15:07:21.542 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-09 15:07:21.542 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-09 15:07:22.795 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: true, activationEvent: 'workspaceContains:astro.config.*'
+2024-05-09 15:07:25.323 [info] Eager extensions activated
+2024-05-09 15:07:25.323 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 15:07:25.324 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 15:07:25.325 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-05-09 15:07:32.763 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-09 15:07:32.764 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-09 15:07:32.764 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-09 15:12:19.107 [info] ExtensionService#_doActivateExtension vscode.references-view, startup: false, activationEvent: 'onCommand:references-view.findReferences'
+2024-05-09 16:44:06.951 [info] Extension host terminating: received terminate message from renderer
+2024-05-09 16:44:07.004 [info] Lock '/home/triana/.vscode-server/data/User/workspaceStorage/60ca0461a8d3bc3574ce70e72af90cd6/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-05-09 16:44:18.990 [error] Canceled: Canceled
+	at new O (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:145:47131)
+	at c.U (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:152:5542)
+	at F.<computed>.z.charCodeAt.F.<computed> (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:152:2993)
+	at r.g (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188928)
+	at r.executeCommand (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188366)
+	at E.registerCommand.description (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:187690)
+	at r.h (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:189467)
+	at r.g (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188459)
+	at r.executeCommand (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188366)
+	at Object.executeCommand (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:165:22673)
+	at a.O [as value] (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:945138)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.z (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+	at Object.p [as dispose] (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:964222)
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:970260
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:970246)
+	at h.<anonymous> (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:153:3955)
+	at h.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:153:4052)
+	at h.<anonymous> (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:947395)
+	at h.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:153:4052)
+	at a (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at f.eb (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:9975)
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:7824
+	at Array.map (<anonymous>)
+	at f.$ (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:7811)
+	at f.terminate (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:8085)
+	at a.terminate (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:178:9922)
+	at a.value (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:178:7969)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at l.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+	at r.z (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+	at a.value (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at f.acceptChunk (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+	at a.value (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at i.z (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:19732)
+	at i.acceptFrame (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:19538)
+	at n (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:18037)
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:15257
+	at Socket.S (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:13162)
+	at Socket.emit (node:events:517:28)
+	at addChunk (node:internal/streams/readable:335:12)
+	at readableAddChunk (node:internal/streams/readable:308:9)
+	at Readable.push (node:internal/streams/readable:245:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-05-09 16:44:19.022 [error] Canceled: Canceled
+	at new O (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:145:47131)
+	at c.U (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:152:5542)
+	at F.<computed>.z.charCodeAt.F.<computed> (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:152:2993)
+	at r.g (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188928)
+	at r.executeCommand (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188366)
+	at E.registerCommand.description (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:187690)
+	at r.h (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:189467)
+	at r.g (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188459)
+	at r.executeCommand (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:155:188366)
+	at Object.executeCommand (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:165:22673)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/github/dist/extension.js:2:322969)
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/github/dist/extension.js:2:323928
+	at a.value (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:1050711)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.z (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+	at Object.p [as dispose] (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:964222)
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:970260
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:970246)
+	at h.<anonymous> (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:153:3955)
+	at h.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:153:4052)
+	at h.<anonymous> (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/git/dist/main.js:2:947395)
+	at h.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:153:4052)
+	at a (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at f.eb (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:9975)
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:7824
+	at Array.map (<anonymous>)
+	at f.$ (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:7811)
+	at f.terminate (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:8085)
+	at a.terminate (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:165:1513)
+	at t (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:178:9922)
+	at a.value (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:178:7969)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at l.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+	at r.z (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+	at a.value (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at f.acceptChunk (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+	at a.value (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+	at o.y (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at i.z (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:19732)
+	at i.acceptFrame (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:19538)
+	at n (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:18037)
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:15257
+	at Socket.S (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:175:13162)
+	at Socket.emit (node:events:517:28)
+	at addChunk (node:internal/streams/readable:335:12)
+	at readableAddChunk (node:internal/streams/readable:308:9)
+	at Readable.push (node:internal/streams/readable:245:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-05-09 16:44:19.305 [error] Error: Stopping the server timed out
+	at /home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:288997
+	at async Object.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:521035)
+	at async Object.dispose (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:513365)
+	at async e.deactivate (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:581455)
+	at async Promise.all (index 5)
+	at async f.$ (/home/triana/.vscode-server/bin/b58957e67ee1e712cebf466b995adf4c5307b2bd/out/vs/workbench/api/node/extensionHostProcess.js:161:7839)
+2024-05-09 16:44:19.582 [info] Extension host with pid 114502 exiting with code 0

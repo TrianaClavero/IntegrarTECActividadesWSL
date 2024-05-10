@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "window.zoomLevel": -1,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "git.openRepositoryInParentFolders": "always",
+    "window.menuBarVisibility": "compact",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.env.windows": {},
+    "git.autofetch": true
+}

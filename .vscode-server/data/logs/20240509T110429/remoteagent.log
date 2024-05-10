@@ -1,0 +1,40 @@
+2024-05-09 11:04:29.305 [info] 
+
+
+
+
+2024-05-09 11:04:29.348 [info] Extension host agent started.
+2024-05-09 11:04:29.561 [info] [127.0.0.1][f49d9075][ManagementConnection] New connection established.
+2024-05-09 11:04:30.235 [info] [127.0.0.1][b5407d6b][ExtensionHostConnection] New connection established.
+2024-05-09 11:04:30.278 [info] [127.0.0.1][b5407d6b][ExtensionHostConnection] <523> Launched Extension Host Process.
+2024-05-09 11:27:28.452 [info] Getting Manifest... ritwickdey.liveserver
+2024-05-09 11:27:28.672 [info] Installing extension: ritwickdey.liveserver
+2024-05-09 11:27:32.640 [info] Extension signature verification result for ritwickdey.liveserver: Success. Duration: 1581ms.
+2024-05-09 11:27:36.680 [info] Extracted extension to file:///home/triana/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-05-09 11:27:36.691 [info] Renamed to /home/triana/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-05-09 11:27:36.694 [info] Extracting extension completed. ritwickdey.liveserver
+2024-05-09 11:27:36.702 [info] Extension installed successfully: ritwickdey.liveserver
+2024-05-09 11:28:15.365 [info] [127.0.0.1][b5407d6b][ExtensionHostConnection] <523> [0mGET /favicon.ico [33m404[0m 2.340 ms - 150[0m
+
+2024-05-09 13:07:12.269 [info] [127.0.0.1][32628fbd][ManagementConnection] New connection established.
+2024-05-09 13:07:13.096 [info] [127.0.0.1][b6355634][ExtensionHostConnection] New connection established.
+2024-05-09 13:07:13.162 [info] [127.0.0.1][b6355634][ExtensionHostConnection] <51955> Launched Extension Host Process.
+2024-05-09 13:13:35.632 [info] Getting Manifest... astro-build.astro-vscode
+2024-05-09 13:13:35.788 [info] Installing extension: astro-build.astro-vscode
+2024-05-09 13:13:39.881 [info] Extension signature verification result for astro-build.astro-vscode: Success. Duration: 1730ms.
+2024-05-09 13:13:40.473 [info] Extracted extension to file:///home/triana/.vscode-server/extensions/astro-build.astro-vscode-2.9.0-linux-x64: astro-build.astro-vscode
+2024-05-09 13:13:40.479 [info] Renamed to /home/triana/.vscode-server/extensions/astro-build.astro-vscode-2.9.0-linux-x64
+2024-05-09 13:13:40.481 [info] Extracting extension completed. astro-build.astro-vscode
+2024-05-09 13:13:40.488 [info] Extension installed successfully: astro-build.astro-vscode
+2024-05-09 14:07:41.147 [info] [127.0.0.1][32628fbd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-09 14:07:41.583 [info] [127.0.0.1][b6355634][ExtensionHostConnection] <51955> Extension Host Process exited with code: 0, signal: null.
+2024-05-09 15:07:17.944 [info] [127.0.0.1][28f9be18][ManagementConnection] New connection established.
+2024-05-09 15:07:19.200 [info] [127.0.0.1][0b693494][ExtensionHostConnection] New connection established.
+2024-05-09 15:07:19.219 [info] [127.0.0.1][0b693494][ExtensionHostConnection] <114502> Launched Extension Host Process.
+2024-05-09 15:07:41.566 [info] [127.0.0.1][0b693494][ExtensionHostConnection] <114502> [0mGET /favicon.ico [33m404[0m 2.677 ms - 150[0m
+
+2024-05-09 16:44:02.216 [info] [127.0.0.1][f49d9075][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-09 16:44:04.757 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-09 16:44:06.873 [info] [127.0.0.1][28f9be18][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-09 16:44:19.056 [info] [127.0.0.1][b5407d6b][ExtensionHostConnection] <523> Extension Host Process exited with code: 0, signal: null.
+2024-05-09 16:44:21.267 [info] [127.0.0.1][0b693494][ExtensionHostConnection] <114502> Extension Host Process exited with code: 0, signal: null.
